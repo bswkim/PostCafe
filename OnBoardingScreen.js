@@ -34,13 +34,13 @@ const OnBoardingScreen = ({navigation}) => {
         onDone={() => navigation.navigate("Login")}
         pages = {[
             {
-                backgroundColor: '#fff',
-                title: 'Onboarding',
-                subtitle:'Done',
+                backgroundColor: '#e3d3b3',
+                title: 'Welcome to PostCafe',
+                subtitle:'Record your coffee journey!',
             },
             {
-                backgroundColor: '#fff',
-                title: 'Onboarding2'
+                backgroundColor: '#e3d3b3',
+                title: 'Lets start by log in page.'
             }
         ]}/>
     );

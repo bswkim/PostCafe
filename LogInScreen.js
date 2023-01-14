@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
+import Emoji from 'react-native-emoji';
 
 const LoginScreen = ({navigation}) => {
   const [name, setName] = useState('');
@@ -22,7 +23,8 @@ const LoginScreen = ({navigation}) => {
   }
   return (
     <View style={styles.container}>
-      <Text>Log In</Text>
+      <Emoji name="coffee" style={{fontSize: 50}} />
+      <Text style={styles.largeText}>Log In</Text>
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
@@ -83,6 +85,10 @@ const styles = StyleSheet.create({
     marginTop: 20,
     borderRadius: 10,
   },
+  largeText: {
+    fontSize: 20,
+    color: '#776d63'
+  }
 });
 
 export default LoginScreen;
