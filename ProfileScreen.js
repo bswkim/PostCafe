@@ -23,8 +23,8 @@ const ProfileScreen = () => {
             <Title style={[styles.title, {
               marginTop:15,
               marginBottom: 5,
-            }]}>John Doe</Title>
-            <Caption style={styles.caption}>@j_doe</Caption>
+            }]}>Brian</Title>
+            <Caption style={styles.caption}>@kmsnoo</Caption>
           </View>
         </View>
       </View>
