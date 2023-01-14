@@ -20,3 +20,5 @@ const App = () => {
         </NavigationContainer>
     )
 }
+
+https://www.youtube.com/watch?v=ql4J6SpLXZA
